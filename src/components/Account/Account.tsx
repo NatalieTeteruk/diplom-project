@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import styles from './Account.module.css';
 import { Link } from 'react-router';
+import booksImg from '../../assets/img/books2.png';
 
 const Account = () => {
   const [isLogin, setIsLogin] = useState(true);
@@ -29,7 +30,7 @@ const Account = () => {
 
   return (
     <div className={styles.accountContainer}>
-      <img src="/assets/img/books2.png" alt="" className={styles.bookImg}/>
+      <img src={booksImg} alt="" className={styles.bookImg}/>
       <div className={styles.tabs}>
         <button
           className={`${styles.tabButton} ${isLogin ? styles.active : ''}`}
