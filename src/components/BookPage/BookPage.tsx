@@ -11,14 +11,12 @@ import { addToCart } from "../../store/cart/cartSlice";
 
 const BookPage = () => {
   const [email, setEmail] = useState('');
-  // const [isSent, setIsSent] = useState(false);
   const [book, setBook] = useState<BookType | null>(null);
   const { id } = useParams<{ id: string }>(); 
   const dispatch = useDispatch();
 
   const handleSubmit = (e: { preventDefault: () => void }) => {
     e.preventDefault();
-    // setIsSent(true);
   };
 
   const cartItems = useSelector((state: RootState) => state.cart.items);
