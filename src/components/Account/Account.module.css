@@ -66,18 +66,8 @@
   margin-left: -540px;
   z-index: -1;
   width: 850px;
-  opacity: 75%;
+  opacity: 65%;
 }
-/* .bookImg2{
-  position: absolute;
-  margin-top: -155px;
-  margin-left: 200px;
-  z-index: -1;
-  width: 830px;
-  opacity: 80%;
-} */
-
-
 .field {
   padding: 0.5rem;
   font-size: 12px;
@@ -122,4 +112,18 @@
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
+}
+
+.back2{
+  position: absolute;
+  color: #313037;
+  background: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  margin-left: 370px;
+  margin-top: -80px;
+}
+.back2:hover{
+  text-decoration: underline;
 }

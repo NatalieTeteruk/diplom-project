@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router";
 import styles from "./NewReleases.module.css";
 import { Pagination } from "../Pagination/Pagination";
+import smallBook from '../../assets/img/Rectangle (8).png';
 
 export interface BookType {
   title: string;
@@ -47,7 +48,7 @@ const NewReleases = () => {
     return (
     <div className={styles.wrap}>
         <div className={styles.newReleases}>
-            <h2 className={styles.title}>New Releases Books  <img src="/assets/img/Rectangle (5).png" alt="" className={styles.smallBook}/></h2>
+            <h2 className={styles.title}>New Releases Books  <img src={smallBook} alt="" className={styles.smallBook}/></h2>
             <div className={styles.cardsContainer}>
                 {books.map(book => (
                     <div className={styles.bookCard} key={book.isbn13}>

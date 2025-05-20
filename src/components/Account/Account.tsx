@@ -29,7 +29,11 @@ const Account = () => {
   };
 
   return (
-    <div className={styles.accountContainer}>
+    <div>
+       <Link to="/" className={styles.back2} aria-label="Back to home">
+        &#8592; Back to home
+      </Link>
+       <div className={styles.accountContainer}>
       <img src={booksImg} alt="" className={styles.bookImg}/>
       <div className={styles.tabs}>
         <button
@@ -117,6 +121,8 @@ const Account = () => {
        
       </div>
     </div>
+    </div>
+   
   );
 };
 
