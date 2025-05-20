@@ -8,6 +8,7 @@ import Reviews from "../Reviews/Reviews";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../../store/cart/store"; 
 import { addToCart } from "../../store/cart/cartSlice";
+import heartImg from '../../assets/img/heart 1.png';
 
 const BookPage = () => {
   const [email, setEmail] = useState('');
@@ -59,6 +60,14 @@ const BookPage = () => {
               src={book.image} 
               alt={book.title}
             />
+             <div className="favourites">
+               <button
+
+              className="favorite-button  favorite-button_active"
+               >
+              <img src={heartImg} alt="" width="25px"/>
+            </button>
+            </div>
           </div>
 
           <div className="description">
