@@ -1,0 +1,67 @@
+.letter{
+  width: 1120px;
+  height: 288px;
+  background: #F4EEFD;
+  margin-top: 74px;
+  display: flex;          
+  justify-content: center; 
+  align-items: center;   
+  }
+.wrapSubscribe{
+  width: 992px;
+  height: 176px;
+  object-fit: contain;
+}
+.titleForm{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #313037 ;
+  }
+.subscribeText{
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #313037 ;
+} 
+.formInput{
+  width: 960px;
+  height: 56px;
+  margin-top: 32px;
+  position: relative;
+  border: none;
+  padding-left: 24px;
+  outline:none;
+}
+.formBtn{
+  width: 169px;
+  height: 56px;
+  border: none;
+  background: #313037;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  color: #ffffff ;
+  letter-spacing: 5px;
+  position: absolute;
+  margin-top: 32px;
+  margin-left: -169px;
+  cursor: pointer;
+}
+.formBtn:hover{
+  background: #434344;
+}
+
+.successMessage {
+  color: #434344;
+  margin: 50px 0;
+  padding: 10px;
+  background-color: #bfe5f7;
+  border-radius: 4px;
+  font-size: 20px;
+  font-weight: 600;
+}
+  
