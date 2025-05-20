@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/NatalieTeteruk/diplom-project/static/css/main.4df151be.css",
-    "main.js": "/NatalieTeteruk/diplom-project/static/js/main.e52681e7.js",
-    "index.html": "/NatalieTeteruk/diplom-project/index.html",
-    "main.4df151be.css.map": "/NatalieTeteruk/diplom-project/static/css/main.4df151be.css.map",
-    "main.e52681e7.js.map": "/NatalieTeteruk/diplom-project/static/js/main.e52681e7.js.map"
+    "main.css": "/diplom-project/static/css/main.4df151be.css",
+    "main.js": "/diplom-project/static/js/main.e51aeab6.js",
+    "index.html": "/diplom-project/index.html",
+    "main.4df151be.css.map": "/diplom-project/static/css/main.4df151be.css.map",
+    "main.e51aeab6.js.map": "/diplom-project/static/js/main.e51aeab6.js.map"
   },
   "entrypoints": [
     "static/css/main.4df151be.css",
-    "static/js/main.e52681e7.js"
+    "static/js/main.e51aeab6.js"
   ]
 }
